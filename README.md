@@ -1,6 +1,7 @@
 # Scrapping Images from Unsplash #
 - Using regex (to identify the relevant keyword) and selenium (to retrieve the download links found in HTML page source)
-- Headed browser is used for automation as certain website blocks headless browser, although more elegant alternatives are very likely to exist 
+- Headed browser is used for automation as certain website blocks headless browser, although more elegant alternatives are very likely to exist
+- Similar approach can be used for other freestock photos database, e.g. Pexels, just have to identify the relevant "expressions" with regex
  
 The overall procedure goes:
 1) Reformat and add the query (search term) into URL, additional flag can be added to increase relevancy
